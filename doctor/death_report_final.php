@@ -130,38 +130,6 @@
               <button id="death_search" type="submit" name="submit" class="btn btn-appoint death_btn_margin_2" >SUBMIT</button>
               </center>
             </div>
-            <div class="death_hide">
-            	<div class="container">
-            		<div class="row">
-            			<div class="col-sm-4 death_bgm" >
-   							<div class="card shadow p-3 mb-5 rounded">
-   								<div class="row">
-   									<div class="span_death_left">
-   										<img src="img/doctor3.jpg" width="100%" height="130px">
-   									</div>
-   									<div class="span_death_left">
-   										<div class="death_text_2">
-   											Name : <?php echo $name ?> <br><br>
-   											Civil Id : <?php echo $civil_id ?> <br><br>
-   											<a href="">view profile</a>
-   										</div> 
-   									</div>
-   								</div>
-   							</div>
-   						</div>
-   						<a href="death_report_final.php?id="><div class="col-sm-2 death_bgm_btn">
-   							 Continue
-   						</div></a>
-            		</div>
-            	</div>
-        	</div>
-        	<div class="death_hide2" style="display: none;">
-            	<div class="container">
-            		<div class="row">
-            			No Data Found
-            		</div>
-            	</div>
-        	</div>
           </div>
         </div>
       </div>
@@ -169,4 +137,3 @@
     </div>
   </section>
   
-<?php include 'doc_footer.php'; ?>
